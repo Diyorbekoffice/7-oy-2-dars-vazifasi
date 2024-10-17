@@ -1,11 +1,12 @@
 import React, { useState, useEffect, createContext, useContext } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import searchIcon from './assets/Search.svg';
 import locationIco from './assets/ic_Pin.svg';
 import phoneIco from './assets/iPhoneico.png';
 import translations from './language/language.json';
 import './style.css';
 
-// ThemeContext yaratamiz
 const ThemeContext = createContext();
 
 function ThemeProvider({ children }) {
@@ -36,9 +37,11 @@ function App() {
   const handleThemeChange = (e) => {
     const selectedTheme = e.target.value;
     if (selectedTheme === 'dark') {
-      toggleTheme('dark'); 
+      toggleTheme('dark');
+      toast.success('Dark theme enabled!'); 
     } else {
-      toggleTheme('light'); // Light holatini ham qoʻshamiz
+      toggleTheme('light');
+      toast.info('Light theme enabled!'); 
     }
   };
 
@@ -96,6 +99,8 @@ function App() {
           <img src={phoneIco} alt="Phone Icon" className="w-3/4 h-auto" />
         </div>
       </section>
+
+      <ToastContainer />
     </div>
   );
 }
