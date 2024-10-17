@@ -1,0 +1,33 @@
+{
+    "en": {
+      "logo": "YOUR LOGO",
+      "assets": "Assets",
+      "creators": "Creators",
+      "careers": "Careers",
+      "goPro": "Go Pro",
+      "searchPlaceholder": "search",
+      "securitySolution": "A SECURITY SOLUTION",
+      "keepTrack": "Keep track of your loved ones in real time!",
+      "noticed": "We noticed the high level of insecurity in the world, and we thought of how technology could be used to combat these insecurities.",
+      "joinWaitlist": "Join Our Waitlist!",
+      "notify": "Be the first to get notified when the product is ready!",
+      "joinList": "Join List!",
+      "emailPlaceholder": "Your email address"
+    },
+    "ru": {
+      "logo": "ВАШ ЛОГОТИП",
+      "assets": "Активы",
+      "creators": "Создатели",
+      "careers": "Карьера",
+      "goPro": "Профессиональный",
+      "searchPlaceholder": "поиск",
+      "securitySolution": "РЕШЕНИЕ ДЛЯ БЕЗОПАСНОСТИ",
+      "keepTrack": "Отслеживайте своих близких в реальном времени!",
+      "noticed": "Мы заметили высокий уровень небезопасности в мире и подумали, как технологии можно использовать для борьбы с этой небезопасностью.",
+      "joinWaitlist": "Присоединяйтесь к нашему списку ожидания!",
+      "notify": "Будьте первым, кто получит уведомление, когда продукт будет готов!",
+      "joinList": "Присоединиться!",
+      "emailPlaceholder": "Ваш адрес электронной почты"
+    }
+  }
+  
